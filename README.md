@@ -7,7 +7,7 @@ created by [Mark Murphy](www.commonsware.org).
 
 You can also read the [blog post](http://blog.ask-cs.com/using-camera-in-teamup-for-android/), with a more tutorial like example.
 
-##Usage
+##Usage with local repository
 
 To add this lib as a dependency:
 
@@ -30,6 +30,25 @@ Maven
 </dependency>
 ```
 
+## Usage with online repository
+To use this library you can add ExceptionHandler library in your project or you can also grab it via Gradle:
+
+Add it in your root build.gradle at the end of repositories:
+
+```gradle
+allprojects {
+   repositories {
+    maven { url "https://jitpack.io" }
+   }
+}
+```
+
+Add dependencies :
+```gradle
+dependencies {
+     compile 'com.github.rianask:android-simple-camera:1.0'
+}
+```
 This implementation is built around the [`CameraFragment`](https://github.com/commonsguy/cwac-camera/blob/master/camera/src/com/commonsware/cwac/camera/CameraFragment.java).
 The CameraFragment is wrapped in an Activity, together with a Builder class, that only reveals a couple of the options
 of the SimpleCameraHost. This is done to keep it simple.
