@@ -7,7 +7,7 @@ created by [Mark Murphy](www.commonsware.org).
 
 You can also read the [blog post](http://blog.ask-cs.com/using-camera-in-teamup-for-android/), with a more tutorial like example.
 
-##Usage with local repository
+## Usage local repository
 
 To add this lib as a dependency:
 
@@ -30,7 +30,7 @@ Maven
 </dependency>
 ```
 
-## Usage with online repository
+## Usage online repository
 To use this library you can add ExceptionHandler library in your project or you can also grab it via Gradle:
 
 Add it in your root build.gradle at the end of repositories:
