@@ -31,7 +31,7 @@ Maven
 ```
 
 ## Usage online repository
-To use this library you can add ExceptionHandler library in your project or you can also grab it via Gradle:
+To use this library you can add android-simple-camera library in your project or you can also grab it via Gradle:
 
 Add it in your root build.gradle at the end of repositories:
 
